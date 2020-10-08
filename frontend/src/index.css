@@ -215,12 +215,12 @@ a > .rating > span:last-child {
 }
 .button {
   padding: 1rem;
-  border: 0.1rem #808080 solid;
+  border: 0.1rem #f0c040 solid !important;
   border-radius: 0.5rem;
   cursor: pointer;
 }
 .button:hover {
-  border: 0.1rem #404040 solid;
+  border: 0.1rem #f0c040 solid ;
 }
 .button.primary {
   background-color: #f0c040;
