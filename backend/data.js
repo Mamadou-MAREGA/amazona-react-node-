@@ -9,7 +9,8 @@ export default {
             brand: 'Nike',
             rating: 4.2,
             numReviews: 10,
-            description: 'Nice product'
+            description: 'Nice product',
+            countInStock: 0
         },
         {
             _id: '2',
@@ -20,7 +21,8 @@ export default {
             brand: 'Nike',
             rating: 4.0,
             numReviews: 10,
-            description: 'Best product'
+            description: 'Best product',
+            countInStock: 3
         },
         {
             _id: '3',
@@ -31,7 +33,8 @@ export default {
             brand: 'Nike',
             rating: 3.5,
             numReviews: 10,
-            description: 'I like that product'
+            description: 'I like that product',
+            countInStock: 5
         },
         {
             _id: '4',
@@ -42,7 +45,8 @@ export default {
             brand: 'Nike',
             rating: 2.5,
             numReviews: 10,
-            description: 'Nice product'
+            description: 'Nice product',
+            countInStock: 4
         },
         {
             _id: '5',
@@ -53,7 +57,8 @@ export default {
             brand: 'Nike',
             rating: 3.5,
             numReviews: 10,
-            description: 'Nice product'
+            description: 'Nice product',
+            countInStock: 5
         },
         {
             _id: '6',
@@ -64,7 +69,8 @@ export default {
             brand: 'Nike',
             rating: 4.5,
             numReviews: 10,
-            description: 'Best product'
+            description: 'Best product',
+            countInStock: 6
         }
     ]
 };
