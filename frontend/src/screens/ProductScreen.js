@@ -7,13 +7,13 @@ function ProductScreen (props) {
 
     const [qty, setQty] = useState(1);
     const productDetails = useSelector( state => state.productDetails);
-    const { product, loading, error } = productDetails;
+    const { product,loading,error } = productDetails;
     const dispatch = useDispatch();
 
     useEffect(() => {
 
         dispatch(detailsProduct(props.match.params.id));
-        //console.log(props.match.params.id);
+
         return () => {
             //
         }

@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import config from "./config";
 import mongoose from 'mongoose';
 import userRoute from './routes/userRoute';
+import bodyParser from 'body-parser';
 
 dotenv.config();
 
@@ -17,7 +18,9 @@ mongoose.connect(mongodbUrl,{
 
 const app = express();
 
-app.use("/api/users", userRoute);
+app.use(bodyParser.json());
+app.use('/api/users', userRoute);
+
 app.get("/api/products/:id", (req, res) => {
     const productId = req.params.id;
     const product = data.products.find(x => x._id === productId);
