@@ -112,8 +112,7 @@ ul.review {
   padding: 0;
 }
 .review li {
-  margin: 1rem;
-  margin-bottom: 2rem;
+  margin: 1rem 1rem 2rem;
 }
 .review li > div {
   margin: 0.5rem;
@@ -134,7 +133,6 @@ a > .rating > span:last-child {
 }
 
 /* Sidebar */
-
 .brand button {
   font-size: 3rem;
   padding: 0.5rem;
@@ -160,9 +158,8 @@ a > .rating > span:last-child {
   border: 0.1rem #000000 solid;
   width: 3rem;
   height: 3rem;
-  padding: 0.5rem;
   font-size: 2rem;
-  padding-top: 0;
+  padding: 0 0.5rem 0.5rem;
   cursor: pointer;
   position: absolute;
   right: 0.5rem;
@@ -215,12 +212,12 @@ a > .rating > span:last-child {
 }
 .button {
   padding: 1rem;
-  border: 0.1rem #f0c040 solid;
+  border: 0.1rem #808080 solid;
   border-radius: 0.5rem;
   cursor: pointer;
 }
 .button:hover {
-  border: 0.1rem #f0c040 solid;
+  border: 0.1rem #404040 solid;
 }
 .button.primary {
   background-color: #f0c040;
@@ -231,8 +228,8 @@ a > .rating > span:last-child {
 .text-center {
   text-align: center;
 }
-/* Cart */
 
+/* Cart */
 .cart {
   display: flex;
   flex-wrap: wrap;
@@ -283,7 +280,6 @@ a > .rating > span:last-child {
 }
 
 /* forms */
-
 .form {
   display: flex;
   justify-content: center;
@@ -312,12 +308,12 @@ input {
 }
 
 /* Products */
-
 .product-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
+
 
 .content-margined {
   margin: 1rem;
@@ -334,7 +330,6 @@ tbody > tr:nth-child(odd) {
 }
 
 /* Checkout Steps */
-
 .checkout-steps {
   display: flex;
   justify-content: space-between;
@@ -425,8 +420,7 @@ tbody > tr:nth-child(odd) {
   list-style-type: none;
   z-index: 1;
   background-color: #203040;
-  margin: 0;
-  margin-top: 0.4rem;
+  margin: 0.4rem 0 0;
 }
 .dropdown:hover .dropdown-content {
   display: block;

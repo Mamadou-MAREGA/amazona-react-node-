@@ -7,11 +7,12 @@ import ProductScreen from "./screens/ProductScreen";
 import SigninScreen from "./screens/SigninScreen";
 import {useSelector} from "react-redux";
 import RegisterScreen from "./screens/RegisterScreen";
+import ProductsScreen from "./screens/ProductsScreen";
 
 function App() {
 
-    const userSignin = useSelector(state => state.userSignin);
-    const {userInfo} = userSignin;
+    const userSignin = useSelector((state) => state.userSignin);
+    const {userInfo } = userSignin;
 
     const openMenu = () => {
         document.querySelector(".sidebar").classList.add('sidebar-open');
@@ -51,6 +52,7 @@ function App() {
               </aside>
               <main className="main">
                   <div className="content">
+                      <Route path="/products" component={ProductsScreen} />
                       <Route path="/signin" component={SigninScreen} />
                       <Route path="/register" component={RegisterScreen} />
                       <Route path="/product/:id"  component={ProductScreen} />
@@ -58,9 +60,7 @@ function App() {
                       <Route path="/" exact={true} component={HomeScreen} />
                   </div>
               </main>
-              <footer className="footer">
-                  All right reserved
-              </footer>
+              <footer className="footer">All right reserved.</footer>
           </div>
       </BrowserRouter>
   );
