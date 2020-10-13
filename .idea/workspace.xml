@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f647d111-ba04-409c-83b4-3fd4d1da3ddb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/PC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/models/productModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/productRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/screens/ProductsScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/CheckoutSteps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/screens/PaymentScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/screens/PlaceOrderScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/screens/ShippingScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/productRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/productRoute.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/actions/productActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/productActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/actions/cartActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/cartActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/actions/userAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/userAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/constants/productConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/productConstants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/reducers/productReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/productReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/constants/cartConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/cartConstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/reducers/cartReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/cartReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/RegisterScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/RegisterScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/SigninScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/SigninScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.11.6.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.11.6.development.json" afterDir="false" />
     </list>
@@ -50,12 +50,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/screens" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\Desktop\amazona\frontend\src\screens" />
       <recent name="C:\Users\PC\Desktop\amazona\backend" />
       <recent name="C:\Users\PC\Desktop\amazona\frontend\src\Screens" />
     </key>
@@ -76,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602163279436</updated>
       <workItem from="1602163283011" duration="15079000" />
-      <workItem from="1602179675353" duration="92502000" />
+      <workItem from="1602179675353" duration="102084000" />
     </task>
     <servers />
   </component>
